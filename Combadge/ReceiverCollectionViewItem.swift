@@ -18,7 +18,7 @@ class ReceiverCollectionViewItem: NSCollectionViewItem {
         
         super.viewDidLoad()
         view.wantsLayer = true
-        view.layer?.backgroundColor = NSColor.lightGray.cgColor
+        view.layer?.backgroundColor = NSColor.blue.cgColor
     }
     
 }

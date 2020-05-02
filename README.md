@@ -69,7 +69,7 @@ Here is the ViewController
 
 
   [1]: https://github.com/lewissk/transparentapp
-  [2]: https://i.stack.imgur.com/xByAw.gif
+  [2]: https://i.stack.imgur.com/TdrxH.gif
 
 
 

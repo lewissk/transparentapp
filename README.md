@@ -2,7 +2,7 @@ Example of a Transparent Window macOS Application
 
 I am trying to create a macOS application that is semi-transparent. Like the Terminal application that is included with macOS. I created an NSWindow subclass that is transparent and a pretty standard NSCollectionView in a Storyboard. I can get the application to be semitransparent but when I scroll the NSCollectionViewItems it leaves the background transparent.
 
-Code for the problem is here on [Github][1]
+Question on [stackoverflow][1]
 
 Example of Problem
 
@@ -68,7 +68,7 @@ Here is the ViewController
     }
 
 
-  [1]: https://github.com/lewissk/transparentapp
+  [1]: https://stackoverflow.com/questions/61566114/nswindow-transparent-background-nscollectionview-background-not-repainting
   [2]: https://i.stack.imgur.com/TdrxH.gif
 
 

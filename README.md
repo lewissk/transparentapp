@@ -53,6 +53,12 @@ Here is the ViewController
             flowLayout.minimumInteritemSpacing = 20.0
             flowLayout.minimumLineSpacing = 20.0
             collectionView.collectionViewLayout = flowLayout
+        
+            scrollView.drawsBackground = false
+            scrollView.contentView.drawsBackground = false
+            scrollView.backgroundColor = NSColor(calibratedRed: 0.0, green: 0.0, blue: 0.0, alpha: 0.1)
+        
+            collectionView.backgroundColors = [NSColor(calibratedRed: 0.0, green: 0.0, blue: 0.0, alpha: 0.1)]
         }
     }
     

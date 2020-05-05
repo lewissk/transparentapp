@@ -723,7 +723,6 @@
                                             </collectionViewFlowLayout>
                                             <color key="primaryBackgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             <connections>
-                                                <outlet property="backgroundView" destination="Wru-2V-z5B" id="et4-Rz-dhN"/>
                                                 <outlet property="dataSource" destination="XfG-lQ-9wD" id="GUj-bS-QgV"/>
                                             </connections>
                                         </collectionView>
@@ -752,15 +751,6 @@
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-                <customView id="Wru-2V-z5B" customClass="ColoredView" customModule="Combadge" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="0.0" width="163" height="96"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="color" keyPath="color">
-                            <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.098405393835616445" colorSpace="custom" customColorSpace="displayP3"/>
-                        </userDefinedRuntimeAttribute>
-                    </userDefinedRuntimeAttributes>
-                </customView>
             </objects>
             <point key="canvasLocation" x="74" y="884"/>
         </scene>

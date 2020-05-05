@@ -13,6 +13,7 @@ I have tried many things
 
  - Get the callbacks of the NSScroll View and get the UI to redraw 
  - Set the background in most of the views in the Storyboard
+ - The StackOverflow question's suggestions: [StackOverflow][3]
 
 Here is the custom UIWindow
 
@@ -53,6 +54,12 @@ Here is the ViewController
             flowLayout.minimumInteritemSpacing = 20.0
             flowLayout.minimumLineSpacing = 20.0
             collectionView.collectionViewLayout = flowLayout
+        
+            scrollView.drawsBackground = false
+            scrollView.contentView.drawsBackground = false
+            scrollView.backgroundColor = NSColor(calibratedRed: 0.0, green: 0.0, blue: 0.0, alpha: 0.1)
+        
+            collectionView.backgroundColors = [NSColor(calibratedRed: 0.0, green: 0.0, blue: 0.0, alpha: 0.1)]
         }
     }
     
@@ -70,6 +77,7 @@ Here is the ViewController
 
   [1]: https://stackoverflow.com/questions/61566114/nswindow-transparent-background-nscollectionview-background-not-repainting
   [2]: https://i.stack.imgur.com/TdrxH.gif
+  [3]: https://stackoverflow.com/questions/42058337/transparent-nscollectionview-background
 
 
 

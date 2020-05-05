@@ -30,9 +30,9 @@ class ViewController: NSViewController {
         
         scrollView.drawsBackground = false
         scrollView.contentView.drawsBackground = false
-        scrollView.backgroundColor = NSColor(calibratedRed: 0.0, green: 0.0, blue: 0.0, alpha: 0.1)
+        scrollView.backgroundColor = NSColor.clear
         
-        collectionView.backgroundColors = [NSColor(calibratedRed: 0.0, green: 0.0, blue: 0.0, alpha: 0.1)]
+        collectionView.backgroundColors = [.clear]
     }
 }
 

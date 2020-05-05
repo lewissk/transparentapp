@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D24B77F52460BF7D00F8BA08 /* ColoredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24B77F42460BF7D00F8BA08 /* ColoredView.swift */; };
 		D2E805E9245CDFB600CB0794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E805E8245CDFB600CB0794 /* AppDelegate.swift */; };
 		D2E805EB245CDFB600CB0794 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E805EA245CDFB600CB0794 /* ViewController.swift */; };
 		D2E805EE245CDFB600CB0794 /* Combadge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2E805EC245CDFB600CB0794 /* Combadge.xcdatamodeld */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D24B77F42460BF7D00F8BA08 /* ColoredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredView.swift; sourceTree = "<group>"; };
 		D2E805E5245CDFB600CB0794 /* Combadge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Combadge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E805E8245CDFB600CB0794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2E805EA245CDFB600CB0794 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				D2E805E8245CDFB600CB0794 /* AppDelegate.swift */,
 				D2E8061B245DC04B00CB0794 /* MainWindow.swift */,
 				D2E805EA245CDFB600CB0794 /* ViewController.swift */,
+				D24B77F42460BF7D00F8BA08 /* ColoredView.swift */,
 				D2E805F1245CDFB900CB0794 /* Main.storyboard */,
 				D2E80617245CF70B00CB0794 /* ReceiverCollectionViewItem.swift */,
 				D2E80618245CF70B00CB0794 /* ReceiverCollectionViewItem.xib */,
@@ -272,6 +275,7 @@
 				D2E8061C245DC04B00CB0794 /* MainWindow.swift in Sources */,
 				D2E805EB245CDFB600CB0794 /* ViewController.swift in Sources */,
 				D2E805E9245CDFB600CB0794 /* AppDelegate.swift in Sources */,
+				D24B77F52460BF7D00F8BA08 /* ColoredView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

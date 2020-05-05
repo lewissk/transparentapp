@@ -14,7 +14,7 @@ class MainWindow: NSWindow {
         super.init(contentRect: contentRect, styleMask: style, backing: backingStoreType, defer: false)
         self.backingType = NSWindow.BackingStoreType.buffered
         self.alphaValue = 1.0
-        self.backgroundColor = NSColor.clear
+        self.backgroundColor = NSColor(calibratedRed: 0.0, green: 0.0, blue: 0.0, alpha: 0.2)
         self.isOpaque = false
     }
 }
